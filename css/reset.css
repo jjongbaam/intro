@@ -428,7 +428,7 @@ address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal;}
 input,select,textarea,button {vertical-align:middle;}
 a{text-decoration:none; color:#333;}
 
-body{font-family:'Droid Sans','Malgun Gothic','Helvetica','Apple-Gothic','애플고딕','Tahoma',dotum,'돋움',gulim,'굴림',sans-serif; color: #111; font-weight: normal; font-size:14px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; letter-spacing:-1px;}
+body{font-family:'Malgun Gothic','Helvetica','Apple-Gothic','애플고딕','Tahoma',dotum,'돋움',gulim,'굴림',sans-serif; color: #111; font-weight: normal; font-size:14px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; letter-spacing:-1px;}
 pre {line-height: 12px; font-family:'Droid Sans','Malgun Gothic','Helvetica','Apple-Gothic','애플고딕','Tahoma',dotum,'돋움',gulim,'굴림',sans-serif; color: #111; white-space: pre-line;}
 
 label.placeholder{letter-spacing: 0;}

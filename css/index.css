@@ -1,13 +1,14 @@
 @charset "utf-8";
 
 .wrap{display:flex;flex-wrap:wrap;padding:20px 40px;}
-.wrap .section{display:inline-flex;flex-direction:column;justify-content:center;align-items:center;margin:20px 0;padding:30px 0;width:50%;box-sizing:border-box;}
-.wrap .section:nth-child(2n){border-left:1px solid #eee;}
+.wrap .section{display:inline-flex;flex-direction:column;justify-content:center;align-items:center;margin:20px 0;padding:50px 0;width:50%;box-sizing:border-box;}
+.wrap .section:nth-child(2n){border-left:1px solid #888;}
 .wrap .section .img_area{}
 .wrap .section .img_area img{width:200px;height:200px;border-radius:50%;background:#ddd;}
 .wrap .section .img_area .txt{}
-.wrap .section .section_tit{margin-bottom:12px;font-size:24px;}
+.wrap .section .section_tit{margin-bottom:20px;font-size:32px;}
 .wrap .section .section_list{}
-.wrap .section .section_list li{text-align:center;}
-.wrap .section .section_list li strong{display:block;}
-.wrap .section .section_list li span{display:block;}
+.wrap .section .section_list li{margin-top:20px;text-align:center;}
+.wrap .section .section_list li:first-child{margin-top:0;}
+.wrap .section .section_list li strong{display:block;font-size:16px;}
+.wrap .section .section_list li span{display:block;margin-top:4px;color:#666;font-size:16px;}
