@@ -4,6 +4,7 @@
 .wrap .section{position:relative;display:inline-flex;flex-direction:column;justify-content:center;align-items:center;margin:30px 0;padding:50px 0;width:50%;box-sizing:border-box;}
 .wrap .section:nth-child(2n){border-left:1px solid #666;}
 .wrap .section:nth-child(2n):after{content:'';position:absolute;bottom:-35px;left:-6px;width:10px;height:10px;border-radius:50%;background:#222;}
+.wrap .section:last-child{margin-bottom:0;}
 .wrap .section.full{padding-top:0;width:100%;}
 .wrap .section .img_area{}
 .wrap .section .img_area .img{width:200px;height:200px;border-radius:50%;overflow:hidden;}
@@ -19,6 +20,7 @@
 .wrap .section .section_list li span{display:block;margin-top:4px;color:#666;}
 
 @media screen and (min-width: 414px) {
+    .wrap .section{margin:20px 0;padding:40px 0;}
     .wrap .section .img_area .img{width:120px;height:120px;}
     .wrap .section .img_area .name{font-size:16px;}
     .wrap .section .section_tit{margin-bottom:12px;font-size:26px;}
